@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Images, Lists, Tables</title>
+        <meta charset="utf-8" />
+    </head>
+
+    <body>
+        <!-- Images from internet -->
+
+        <img src="https://static01.nyt.com/images/2021/09/14/science/07CAT-STRIPES/07CAT-STRIPES-jumbo.jpg?quality=75&auto=webp" alt="" width="100">
+        <br><hr>
+        <!-- Local images -->
+        <img src="./gal-gadot.jpg" width="200" alt="">
+        <br><hr>
+        <!-- Local image within the folder -->
+        <img width="150" src="./images/gg.jpeg" alt="">
+        <br><hr>
+        <!-- Gif in an img Tag -->
+        <img width="150" src="https://i0.wp.com/dianaurban.com/wp-content/uploads/2017/07/01-cat-stretching-feet.gif?resize=500%2C399&ssl=1" alt="">
+        <br><hr>
+
+        <!-- LISTS -->
+
+        <!-- UNORDERED LISTS - ul tag -->
+
+        <ul>
+            <li>
+                <h2>The Last Picture show</h2>
+            </li>
+            <li>
+                <h2>Memoria</h2>
+            </li>
+            <li>
+                <a href="https://www.imdb.com/title/tt0070510">Paper Moon</a>
+                <p>During the Great Depression, a con man finds himself saddled with a young girl who may or may not be his daughter, and the two forge an unlikely partnership.</p>
+                <img width="150" src="https://m.media-amazon.com/images/M/MV5BOWVmYzQwY2MtOTBjNi00MDNhLWI5OGMtN2RiMDYxODI3MjU5XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg" alt="">
+            </li>
+            <li><h2>Mad Max</h2></li>
+        </ul>
+        <hr>
+
+        <!-- ORDERED LISTS ol Tag -->
+
+        <ol type="I">
+            <li>
+                <h2>Pulp Fiction</h2>
+            </li>
+            <li>
+                <h2>2Close Up</h2>
+            </li>
+        </ol>
+
+        <!-- NESTED LISTS  -->
+
+        <ul>
+            <li>
+                <h2>Pulp Fiction</h2>
+                <ul>
+                    <li>
+                        John Travolta
+                        <ul>
+                            <li>Get Shorty</li>
+                            <li>Be Cool</li>
+                        </ul>
+                    </li>
+                    <li>Uma Thurman</li>
+                    <li>Samuel L. Jackson</li>
+                </ul>
+            </li>
+            <li>
+                <h2>Pulp Fiction</h2>
+                <ul>
+                    <li>
+                        John Travolta
+                        <ul>
+                            <li>Get Shorty</li>
+                            <li>Be Cool</li>
+                        </ul>
+                    </li>
+                    <li>Uma Thurman</li>
+                    <li>Samuel L. Jackson</li>
+                </ul>
+            </li>
+        </ul>
+        <hr>
+
+        <!-- TABLES -->
+
+        <table border="1" cellspacing="5" cellpadding="10">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Phone Number</th>
+                    <th colspan="2">Email</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Pero Perovski</td>
+                    <td>1234567890098765</td>
+                    <td>pero@gmail.com</td>
+                    <td>pero_vtor_email@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>John Doe</td>
+                    <td>123456789009987</td>
+                    <td colspan="2" align="center">johndoe@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+
+        <table border="1" cellspacing="5" cellpadding="10">
+            <tr>
+                <th>Name</th>
+                <td>Mario petkovski</td>
+                <td>Pero perovski</td>
+            </tr>
+            <tr>
+                <th rowspan="2">E-mail</th>
+                <td rowspan="2">mario5etkovski@gmail.com</td>
+                <td>pero.perovski@gmail.com</td>
+            </tr>
+            <tr>
+                <td>pero_vtor_email@gmail.com</td>
+            </tr>
+        </table>
+
+    </body>
+</html>
